@@ -143,6 +143,15 @@ main{
     font-style: normal;
     font-weight: 700;
 }
+.foot-card{
+    display: flex;
+    align-items: center;
+    margin: 60px 10px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.foot-img{
+    margin-right: 50px;
+}
 /* -----------------responsive for mobile----------------- */
 @media screen and (max-width: 576px) {
     nav{
@@ -162,6 +171,15 @@ main{
         justify-content: space-around;
         padding: 20px;
     }
+    .card-content{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+    .foot-card{
+        flex-direction: column;
+        text-align: center;
+        margin: 30px;
+    }
 }
 /* -----------------responsive for table----------------- */
 @media screen and (min-width: 577px) and (max-width: 990px) {
@@ -171,5 +189,9 @@ main{
     .banner{
         margin: 30px;
         
+    }
+    .card-content{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 30px;
     }
 }
