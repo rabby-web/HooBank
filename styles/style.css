@@ -102,6 +102,7 @@ main{
 /* card section */
 .icon-star{
     display: flex;
+    align-items: center;
 }
 .card-item img {
     width: 100%;
@@ -115,6 +116,32 @@ main{
 .card-content{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 1rem 0;
+}
+.popular-text{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 500;
+}
+.fa-star{
+    color: #FB8200;
+}
+.fa-star-half{
+    color: #FB8200;
+}
+.price-text{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+.card-description{
+    color:  #787885;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
 }
 /* -----------------responsive for mobile----------------- */
 @media screen and (max-width: 576px) {
