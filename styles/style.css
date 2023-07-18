@@ -62,18 +62,64 @@ ul li a{
     font-size: 3.2rem;
     font-weight: 700;
 }
+.banner-description{
+    color: var(--main-text);
+    font-size: var(--primary-text);
+    font-weight: 600;
+}
+.btn-primary{
+    border-radius: 41px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.fa-arrow-right{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+}
 /* -----------------/banner----------------- */
-
+/* -----------------main----------------- */
+main{
+    max-width: 1420px;
+    margin: 0 auto;
+}
+/* logo section */
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
 /* -----------------responsive for mobile----------------- */
 @media screen and (max-width: 576px) {
     nav{
         flex-direction: column;
         margin: 10px;
     }
+    .banner{
+        margin: 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    .logo-container{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
 }
 /* -----------------responsive for table----------------- */
 @media screen and (min-width: 577px) and (max-width: 990px) {
     nav{
         margin: 20px;
+    }
+    .banner{
+        margin: 30px;
+        
     }
 }
