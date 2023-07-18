@@ -152,6 +152,11 @@ main{
 .foot-img{
     margin-right: 50px;
 }
+footer{
+    background-color: #0A0826;
+    text-align: center;
+    padding: 1rem;
+}
 /* -----------------responsive for mobile----------------- */
 @media screen and (max-width: 576px) {
     nav{
@@ -180,6 +185,10 @@ main{
         text-align: center;
         margin: 30px;
     }
+    .foot-img{
+        margin: 5px;
+    }
+    
 }
 /* -----------------responsive for table----------------- */
 @media screen and (min-width: 577px) and (max-width: 990px) {
