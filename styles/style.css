@@ -1,50 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,500&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #00040F;;
 }
 :root{
-    --main-bg-color: #FFF;
-    --primary-bg-color:#5CE1E6;
+
 }
 /* -----------------nav----------------- */
-.nav-title-text{
-    color: var(--main-bg-color);
-    font-family: Poppins;
-    font-size: 18px;
-    font-weight: 600;
-}
-.nav-title{
-    display: flex;
-    align-items: center;
-}
-.nav-title img{
-    width: 32px;
-    height: 32px;
-}
-.title-text-secondary{
-    color: var(--primary-bg-color);
-}
-.nav{
-    display: flex;
-    justify-content: space-between;
-    margin: 16px 135px;
-}
-.nav-items > ul{
-    display: flex;
-}
-ul li{
-    margin-left: 56px;
-    list-style: none;
-}
-li a{
-    text-decoration: none;
-    color: var(--main-bg-color);
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 400;
-}
+
 /* -----------------/nav----------------- */
+/* -----------------banner----------------- */
+
+/* -----------------/banner----------------- */
