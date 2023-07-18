@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
+    background: #FFF;
 }
 :root{
     --primary-text: 1rem;
@@ -27,7 +28,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 50px 120px 0;
-    background: #FFF;
 }
 .nav-items ul{
     display: flex;
@@ -47,7 +47,21 @@ ul li a{
 }
 /* -----------------/nav----------------- */
 /* -----------------banner----------------- */
-
+.banner{
+    display: flex;
+    margin: 50px 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-img{
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+}
+.banner-title{
+    columns: var(--main-text);
+    font-size: 3.2rem;
+    font-weight: 700;
+}
 /* -----------------/banner----------------- */
 
 /* -----------------responsive for mobile----------------- */
