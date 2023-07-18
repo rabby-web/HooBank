@@ -27,6 +27,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 50px 120px 0;
+    background: #FFF;
 }
 .nav-items ul{
     display: flex;
@@ -48,3 +49,17 @@ ul li a{
 /* -----------------banner----------------- */
 
 /* -----------------/banner----------------- */
+
+/* -----------------responsive for mobile----------------- */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        margin: 10px;
+    }
+}
+/* -----------------responsive for table----------------- */
+@media screen and (min-width: 577px) and (max-width: 990px) {
+    nav{
+        margin: 20px;
+    }
+}
